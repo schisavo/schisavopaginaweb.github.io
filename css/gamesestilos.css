@@ -1,0 +1,141 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+header{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.left{
+    float: left;
+    background-color: rgba(255,0,0,0.4);
+}
+.juegos{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section article p{
+    color: aqua;
+}
+#fondoarriba{
+    padding: 50px;
+}
+div{
+    width:800px;
+    height: 750px;
+}
+.img{
+    background-color: gray;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+
+
+/*Estilos galerias*/
+.galerias{
+    background-color:black;
+    width: 54%;
+    height: 1300px;
+    color: white;
+    text-align: center;
+    float: right;
+}
+.galeria{
+    width: 2%;
+    list-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+section ul li{
+    list-style: none;
+    flex-wrap: wrap;
+    display: inline;
+    margin: 10px;
+}
+.galeria img{
+    width: 90%;
+    height: 90% ;
+}
+
+/*Estilos del modal*/
+.modal{
+    display: none;
+    text-align: center;
+    
+}
+.modal:target{
+    display: inline-block;
+    background-color: black;
+    width: 80%;
+    height: 35%;
+    
+}
+section h1{
+    margin: 20px;
+}
+.modal h3{
+    color:white;
+    font-size: 30px;
+    margin:15px 0;
+}
+
+.imagen{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a{
+    color: white;
+    font-size: 80px;
+    text-decoration: none;
+    
+    flex-shrink: 2;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    margin: 7px auto;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-radius: 90%;
+    line-height: 25px;  
+}
+
+footer{
+    height: 50%;
+    width: 2000px;
+    float: inherit;
+}
+footer p{
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+}

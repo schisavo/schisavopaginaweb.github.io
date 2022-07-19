@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0;
+}
+header{
+    color: red;
+}
+.galerias{
+    background-color: aqua;
+}
+
+

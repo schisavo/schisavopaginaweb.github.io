@@ -1,0 +1,124 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+body{
+	background-color: black;
+	
+}
+header{
+	background-color: blue;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	color: white;
+}
+header h1{
+	margin-right: 250px;
+}
+
+
+div img{
+	text-align: center;
+}
+div h3{
+	color: white;
+	text-align: center;
+	margin-left: 20px;
+}
+div h3{
+	color: aqua;
+	text-align: justify;
+}
+.facebook{
+	padding: 10px;
+	border-radius: 50%;
+
+}
+.youtube{
+	padding: 10px;
+	border-radius: 60px;
+}
+div a{
+	color: white;
+	text-decoration: none;
+	border-color: blue;
+}
+.gif{
+	background-color: black;
+	padding: 10px;
+	margin-left: 620px;
+	width: 500%;
+	height: 80px;
+}
+.left{
+	float: left;
+	background-color: black;
+	width: 15.4%;
+	height:845px;
+	max-width: 40%;
+}
+.right{
+	float: right;
+	background-color:black;
+	width: 30%;
+	height:845px;
+	color: white;
+}
+progress:indeterminate{
+	opacity: 0.5;
+  }
+  div p{
+	color: aquamarine;
+  }
+.barra{
+	color: gray;	
+}
+
+.imagenes{
+	color: white;
+}
+.img{
+	background-color:black;
+	text-align: center;
+	width: 65%;
+	margin: 15px;
+	padding-left: 4%;
+}
+
+#foto{
+	border-radius: 50%;
+	border-color: blue;
+}
+section article:hover{
+	box-shadow: 0 3px 4px rgba(94, 87, 87);
+	padding: 15px;
+
+}
+section article{
+	text-align: center;
+	transition: box-shadow 0.3s ease;
+	cursor: pointer;
+	width: 100%;
+	padding-right: 50px;
+}
+section h3{
+	color: white;
+	text-decoration: none;
+}
+footer{
+	background-color: blue;
+	width: 100%;
+	height: 70px;
+	text-size-adjust:50px;
+	color: white;
+
+}
+
+footer a{
+	padding: 0px;
+	color: white;
+	text-decoration: none;
+	float: right;
+}
